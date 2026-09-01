@@ -1,0 +1,11 @@
+{application, opensky_filter, [
+    {description, "em_filter for live flights from the OpenSky Network"},
+    {vsn, "0.1.0"},
+    {registered, []},
+    {mod, {opensky_filter_boot, []}},
+    {applications, [kernel, stdlib, ssl, inets, em_filter]},
+    {env, []},
+    {modules, []},
+    {licenses, ["Apache-2.0"]},
+    {links, [{"GitHub", "https://github.com/EmergenceSystem/opensky_filter"}]}
+]}.
